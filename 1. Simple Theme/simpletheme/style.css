@@ -1,0 +1,118 @@
+/*
+Theme Name: Simple Theme
+Theme URI: http://wordpress.org/themes/simpletheme
+Author: Asad Ur Rehman
+Author URI: http://github.com/AsadUrRehmanCs111
+Description: This is Pretty Simplest theme
+Version: 1.0
+
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: simplestTheme
+
+*/
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  color: #333;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  line-height: 1.7em;
+}
+header {
+  background-color: #393939;
+  color: #fff;
+  padding: 20px 10px;
+}
+header h1 {
+  color: #fff;
+  margin: 0;
+}
+a {
+  color: #333;
+}
+.main {
+  margin: 15px 0px;
+  float: left;
+  width: 68%;
+}
+.container {
+  width: 1020px;
+  margin: 0 auto;
+  overflow: auto;
+}
+article.post {
+  border-bottom: 1px solid #ccc;
+  overflow: hidden;
+  padding-bottom: 5px;
+}
+
+footer {
+  background-color: #393939;
+  color: #fff;
+  padding: 10px 10px;
+  text-align: center;
+}
+article.post a.button {
+  display: inline-block;
+  background: #333;
+  color: #fff;
+  padding: 10px 5px;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+.meta {
+  background-color: #393939;
+  color: #fff;
+  padding: 5px;
+}
+.meta a {
+  color: #fff;
+}
+.post_thumbnail img {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+.main-nav {
+  background: #000;
+  color: #fff;
+  padding: 5px;
+}
+.main-nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav li {
+  list-style: none;
+  float: left;
+  padding-right: 15px;
+}
+.main-nav li a {
+  text-decoration: none;
+  color: #fff;
+}
+.sidebar {
+  float: right;
+  width: 28%;
+}
+.clr {
+  clear: both;
+}
+.side-widget {
+  border: 1px #ccc solid;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.side-widget li {
+  list-style: none;
+  line-height: 2.2em;
+  border-bottom: dotted 1px #ccc;
+}
+.side-widget li a {
+  text-decoration: none;
+}
